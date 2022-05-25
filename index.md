@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
+## plantFEMの日本語ドキュメント
 
-You can use the [editor on GitHub](https://github.com/kazulagi/plantfem-tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+plantFEMは，土木/植物の物理数値シミュレーションに適した汎用シミュレータです．
+このページでは，plantFEMを使ったシミュレーションについて，チュートリアルを提供します．
+以下の```<A>```，```<B>```のいずれからでも始められます．
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## ```<A>```plantFEMの基本
 
-```markdown
-Syntax highlighted code block
+### 型と制御構文
 
-# Header 1
-## Header 2
-### Header 3
+> 整数型，浮動小数点型，論理型，文字列型，配列，if文，Doループ
 
-- Bulleted
-- List
+### ファイル入出力
 
-1. Numbered
-2. List
+> .txt, .json, .csvファイルの読み書き 
 
-**Bold** and _Italic_ and `Code` text
+### 関数，サブルーチン，モジュール
 
-[Link](url) and ![Image](src)
-```
+> function, subroutine, module
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### 構造体とクラス
 
-### Jekyll Themes
+> type文による構造体の宣言，function/subroutineを加えたクラスの実装
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kazulagi/plantfem-tutorial/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### オブジェクトの生成と加工
 
-### Support or Contact
+> FEMDomainクラスを利用した基本オブジェクトの生成，加工，およびグループ化
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+> CivilItemClass/SoybeanClass/RiceClass/LeafClass/...を利用した各種オブジェクトの生成
+
+> 独自オブジェクトを生成する方法
+
+### 単体オブジェクトを対象としたシミュレーション
+
+> 変形シミュレーション
+
+> 振動シミュレーション
+
+> 拡散シミュレーション
+
+> 独自シミュレータを実装する方法
+
+
+
+
+
+## ```<B>```目的別に学びたい
+
+
+### 植物の光合成/変形/振動シミュレーション
+
+> ダイズ群落の生成と光合成シミュレーション
+
+> ダイズ個体の倒伏シミュレーション
+
+> ダイズ個体の振動シミュレーション
+
+### 土木構造物の変形/振動シミュレーション
+
+
+> 連続ラーメン高架橋の生成と静的解析
+
+> 連続ラーメン高架橋の生成とモード解析
+
+> 擁壁の定常飽和浸透解析
+
+### 観測時系列データ処理
+
+> 振動波形データの読み込み
+
+> フーリエスペクトルとパワースペクトル
+
+> 2次元/3次元グラフ表示
+
